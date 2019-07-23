@@ -2,8 +2,10 @@
 *.pot
 *.pyc
 __pycache__/
-venv
+
+static
 tortus/settings/dev.py
+venv
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
