@@ -1,9 +1,11 @@
 from .common import *
 
 # Override environment variables
+DEBUG = False
+
+# TODO: Generate new secret key and hide in environment variables on AWS
 SECRET_KEY = 'e85&&l8x!fd4(%5!86wp-pc!#exc3-axx!69qq=jlmm26_(wos'
 
-DEBUG = False
 
 DATABASES = {
   'default': {
